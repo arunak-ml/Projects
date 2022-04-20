@@ -37,6 +37,12 @@ class DomainKey():
 
     # @udf(returnType=StringType())
     # def getkeyword(url):
+    # """
+    #             This UDF extracts the keywords and search engine from the referrer url but made a static list
+    #             of search engines.
+    #             :param url:  referrer url
+    #             In referrer url, using both p & q query parameters to extract the keyword
+    #             """
     #     parsedUrl = urlparse(url)
     #     print(parsedUrl)
     #     netlocList = ['www.bing.com','www.google.com','search.yahoo.com']
